@@ -2,7 +2,7 @@
 /*
 pgx provides lower level access to PostgreSQL than the standard database/sql. It remains as similar to the database/sql
 interface as possible while providing better speed and access to PostgreSQL specific features. Import
-github.com/jackc/pgx/v4/stdlib to use pgx as a database/sql compatible driver.
+github.com/matthewpi/pgx/v4/stdlib to use pgx as a database/sql compatible driver.
 
 Establishing a Connection
 
@@ -163,7 +163,7 @@ from a net.IP; it will assume a /32 netmask for IPv4 and a /128 for IPv6.
 Custom Type Support
 
 pgx includes support for the common data types like integers, floats, strings, dates, and times that have direct
-mappings between Go and SQL. In addition, pgx uses the github.com/jackc/pgtype library to support more types. See
+mappings between Go and SQL. In addition, pgx uses the github.com/matthewpi/pgtype library to support more types. See
 documention for that library for instructions on how to implement custom types.
 
 See example_custom_type_test.go for an example of a custom type for the PostgreSQL point type.
@@ -178,7 +178,7 @@ is recommended that this situation be avoided by implementing pgx interfaces on 
 
 Composite types and row values
 
-Row values and composite types are represented as pgtype.Record (https://pkg.go.dev/github.com/jackc/pgtype?tab=doc#Record).
+Row values and composite types are represented as pgtype.Record (https://pkg.go.dev/github.com/matthewpi/pgtype?tab=doc#Record).
 It is possible to get values of your custom type by implementing DecodeBinary interface. Decoding into
 pgtype.Record first can simplify process by avoiding dealing with raw protocol directly.
 
@@ -329,7 +329,7 @@ go.uber.org/zap, github.com/rs/zerolog, and the testing log are provided in the 
 
 Lower Level PostgreSQL Functionality
 
-pgx is implemented on top of github.com/jackc/pgconn a lower level PostgreSQL driver. The Conn.PgConn() method can be
+pgx is implemented on top of github.com/matthewpi/pgconn a lower level PostgreSQL driver. The Conn.PgConn() method can be
 used to access this lower layer.
 
 PgBouncer

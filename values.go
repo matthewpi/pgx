@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jackc/pgio"
-	"github.com/jackc/pgtype"
+	"github.com/matthewpi/pgtype"
 )
 
 // PostgreSQL format codes

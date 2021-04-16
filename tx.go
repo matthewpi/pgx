@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/jackc/pgconn"
+	"github.com/matthewpi/pgconn"
 )
 
 type TxIsoLevel string

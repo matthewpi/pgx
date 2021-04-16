@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/jackc/pgconn"
 	"github.com/jackc/pgio"
+	"github.com/matthewpi/pgconn"
 )
 
 // CopyFromRows returns a CopyFromSource interface over the provided rows slice

@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/jackc/pgconn"
-	"github.com/jackc/pgx/v4"
 	"github.com/jackc/puddle"
+	"github.com/matthewpi/pgconn"
+	"github.com/matthewpi/pgx/v4"
 )
 
 // Conn is an acquired *pgx.Conn from a Pool.

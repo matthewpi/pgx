@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jackc/pgconn"
 	"github.com/jackc/pgproto3/v2"
-	"github.com/jackc/pgtype"
+	"github.com/matthewpi/pgconn"
+	"github.com/matthewpi/pgtype"
 )
 
 // Rows is the result set returned from *Conn.Query. Rows must be closed before

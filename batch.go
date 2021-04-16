@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/jackc/pgconn"
+	"github.com/matthewpi/pgconn"
 )
 
 type batchItem struct {

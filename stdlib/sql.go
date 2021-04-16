@@ -62,9 +62,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jackc/pgconn"
-	"github.com/jackc/pgtype"
-	"github.com/jackc/pgx/v4"
+	"github.com/matthewpi/pgconn"
+	"github.com/matthewpi/pgtype"
+	"github.com/matthewpi/pgx/v4"
 )
 
 // Only intrinsic types should be binary format with database/sql.
