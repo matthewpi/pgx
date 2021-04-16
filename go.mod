@@ -10,7 +10,7 @@ require (
 	github.com/jackc/pgproto3/v2 v2.0.6
 	github.com/jackc/puddle v1.1.3
 	github.com/matthewpi/pgconn v1.8.2
-	github.com/matthewpi/pgtype v0.0.0-00010101000000-000000000000
+	github.com/matthewpi/pgtype v1.7.3
 	github.com/shopspring/decimal v0.0.0-20200227202807-02e2044944cc
 	github.com/stretchr/testify v1.5.1
 	go.uber.org/zap v1.16.0
